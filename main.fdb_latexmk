@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1739820124.44545 "main.tex" "main.pdf" "main" 1739820125.01626 0
+["pdflatex"] 1739820124.44545 "alex_s_resume.tex" "main.pdf" "main" 1739820125.01626 0
   "/etc/texmf/web2c/texmf.cnf" 1739818331 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -121,7 +121,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1739818417 3352241 3b6fbc1fdab27b9eaaa4497c1a4439bd ""
   "main.aux" 1739820124.96178 940 14583e4b5090d93ca3df30bce364f4db "pdflatex"
   "main.out" 1739820124.9629 658 9dc0ccb33a09ad1820f5174ddcea75bf "pdflatex"
-  "main.tex" 1739820119.12023 5002 a36c60b7ffa48bb09c2d8dbfaec7382a ""
+  "alex_s_resume.tex" 1739820119.12023 5002 a36c60b7ffa48bb09c2d8dbfaec7382a ""
   (generated)
   "main.aux"
   "main.log"

@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Compile the LaTeX document when the container runs
-CMD ["latexmk", "-pdf", "-interaction=nonstopmode", "main.tex"]
+CMD ["latexmk", "-pdf", "-interaction=nonstopmode", "alex_s_resume.tex"]
