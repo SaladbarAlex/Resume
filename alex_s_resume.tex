@@ -21,9 +21,6 @@
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
-\setlist[itemize,1]{leftmargin=1.5em}  % Adjust as needed
-\usepackage[sfdefault]{roboto}  % Uses Roboto Sans for a clean look
-\sloppy
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.6in}
@@ -40,7 +37,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
+    \vspace{-4pt}\scshape\raggedright\large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 \pdfgentounicode=1
@@ -48,98 +45,96 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item[]
+    \vspace{-2pt}\item[]
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
+    \textbf{#1} & \textbf{\small #2} \\
+    \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
 
 \begin{document}
 
 %----------HEADING----------
-\begin{center}
+    \begin{center}
     {\Huge \scshape Alex Salazar} \\ \vspace{1pt}
     Summerville, SC, United States \\ \vspace{1pt}
-    \small \href{mailto:alexsalazarmartinez@gmail.com}{\faEnvelope\ \underline{alexsalazarmartinez@gmail.com}} \hspace{0.3cm}
-    \href{https://www.linkedin.com/in/alexander-salazar-375699277}{\faLinkedin\ \underline{linkedin.com/in/alexander-salazar-375699277}} \hspace{0.3cm}
+    \small \href{mailto:alexsalazarmartinez@gmail.com}{\faEnvelope\ \underline{alexsalazarmartinez@gmail.com}} ~
+    \href{https://www.linkedin.com/in/alexander-salazar-375699277}{\faLinkedin\ \underline{linkedin.com/in/alexander-salazar-375699277}}  ~
     \href{https://github.com/saladbaralex}{\faGithub\ \underline{github.com/saladbaralex}}
     \vspace{-8pt}
-\end{center}
+    \end{center}
 
 %-----------EDUCATION-----------
-\section{Education}
-\begin{itemize}  % Ensure it's inside an itemize environment
-    \resumeSubheading{Clemson University}{Aug. 2023 -- May 2026}{Bachelor of Science in Computer Science}{GPA: 3.7 (Spring 2025)}
-\end{itemize}
+    \section{Education}
+    \begin{itemize}  % Ensure it's inside an itemize environment
+        \resumeSubheading{Clemson University}{Aug. 2023 -- May 2026}{Bachelor of Science in Computer Science}{GPA: 3.68 (Spring 2025)}
+    \end{itemize}
 
 %------RELEVANT COURSEWORK-------
-\section{Relevant Coursework}
-\begin{multicols}{4}
-    \begin{itemize}[itemsep=-5pt, parsep=3pt]
-        \item Data Structures
-        \item Algorithm Design
-        \item Artificial Intelligence
-        \item Data Science
-        \item Software Development
-        \item Machine Learning
-        \item Computer Architecture
-        \item Systems Programming
-    \end{itemize}
-\end{multicols}
+    \section{Relevant Coursework}
+    \begin{multicols}{4}
+        \begin{itemize}[itemsep=-5pt, parsep=3pt]
+            \item Data Structures
+            \item Algorithm Design
+            \item Artificial Intelligence
+            \item Data Science
+            \item Software Development
+            \item Machine Learning
+            \item Computer Architecture
+            \item Systems Programming
+        \end{itemize}
+    \end{multicols}
 
 %-----------EXPERIENCE-----------
-\section{Experience}
-\begin{itemize}
-    \resumeSubheading{Clemson Creative Inquiry Program}{Jan. 2024 -- Present}{Undergraduate Researcher}{Clemson, SC}
+    \section{Experience}
     \begin{itemize}
-        \item Conducted analysis on privacy policies and integration in software workflows.
-        \item Utilized Python, Pandas, and NLTK for dataset processing and text classification.
-        \item Developed frameworks to enhance privacy compliance through AI-based models.
-    \end{itemize}
+        \resumeSubheading{Clemson Creative Inquiry Program}{Jan. 2024 -- Present}{Undergraduate Researcher}{Clemson, SC}
+        \begin{itemize}
+            \item Conducted analysis on privacy policies and integration in software workflows.
+            \item Utilized Python, Pandas, and NLTK for dataset processing and text classification.
+            \item Developed frameworks to enhance privacy compliance through AI-based models.
+        \end{itemize}
 
-    \resumeSubheading{Rio Chico Mexican Restaurant}{Aug. 2022 -- Present}{Server}{Summerville, SC}
-    \begin{itemize}
-        \item Led a team to improve order efficiency and customer satisfaction.
-        \item Increased daily sales through customer engagement and promotions.
-        \item Managed training programs for new employees to streamline operations.
+        \resumeSubheading{Rio Chico Mexican Restaurant}{Aug. 2022 -- Present}{Server}{Summerville, SC}
+        \begin{itemize}
+            \item Worked as a team to improve order efficiency and customer satisfaction.
+            \item Increased daily sales through customer engagement and promotions.
+        \end{itemize}
     \end{itemize}
-\end{itemize}
-
 
 %-----------PROJECTS-----------
-\section{Projects}
-\begin{itemize}
-    \resumeSubheading{Privacy Compliance Research}{Jan. 2024}{Python, NLP, Scikit-learn}{Clemson, SC}
+    \section{Projects}
     \begin{itemize}
-        \item Researched privacy compliance in software engineering.
-        \item Developed AI-driven compliance monitoring using NLP and Scikit-learn.
-        \item Analyzed policy documents using text processing techniques.
-    \end{itemize}
+        \resumeSubheading{Privacy Compliance Research}{Jan. 2024}{Python, NLP, Scikit-learn}{Clemson, SC}
+        \begin{itemize}
+            \item Researched privacy compliance in software engineering.
+            \item Developed AI-driven compliance monitoring using NLP and Scikit-learn.
+            \item Analyzed policy documents using text processing techniques.
+        \end{itemize}
 
-    \resumeSubheading{Sleep Data Science Project}{Feb. 2024}{Python, Pandas, Matplotlib, Scikit-learn}{Clemson, SC}
-    \begin{itemize}
-        \item Analyzed sleep patterns using wearable device data.
-        \item Built predictive models for sleep quality classification.
-        \item Visualized trends and correlations with Matplotlib and Pandas.
+        \resumeSubheading{Sleep Data Science Project}{Feb. 2025}{Python, Pandas, Matplotlib, Scikit-learn}{Clemson, SC}
+        \begin{itemize}
+            \item Analyzed sleep patterns using wearable device data.
+            \item Built predictive models for sleep quality classification.
+            \item Visualized trends and correlations with Matplotlib and Pandas.
+        \end{itemize}
     \end{itemize}
-\end{itemize}
 
 %-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
-\begin{itemize}
-    \item \textbf{Languages:} Python, Java, C++
-    \item \textbf{Machine Learning:} NumPy, Pandas, Scikit-learn, PyTorch, NLTK
-    \item \textbf{Data Science:} Data Visualization, Statistical Analysis, Data Cleaning
-    \item \textbf{Development Tools:} Git, Linux, Jupyter Notebook
-\end{itemize}
+    \section{Technical Skills}
+    \begin{itemize}
+        \item \textbf{Languages:} Python, Java, C++
+        \item \textbf{Machine Learning:} NumPy, Pandas, Scikit-learn, PyTorch, NLTK
+        \item \textbf{Data Science:} Data Visualization, Statistical Analysis, Data Cleaning
+        \item \textbf{Development Tools:} Git, Linux, Jupyter Notebook
+    \end{itemize}
 
 %-----------HONORS & AWARDS-----------
-\section{Honors \& Awards}
-\begin{itemize}
-    \item President's List (Fall 2024) - 4.0 GPA
-    \item Dean’s List Academic Achievement Award (Academic Year 2023-24)
-\end{itemize}
-
+    \section{Honors \& Awards}
+    \begin{itemize}
+        \item President's List (Fall 2024) - 4.0 GPA
+        \item Dean’s List Academic Achievement Award (Academic
+        Year 2023-24, 2024-25)
+    \end{itemize}
 
 \end{document}
